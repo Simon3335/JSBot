@@ -1,0 +1,5 @@
+{
+    "start" : ["hello", "hi", "greetings"],
+    "end" : ["goodbye", "see you all later", "see ya"],
+    "python_greeting" : "cabbage"
+}
