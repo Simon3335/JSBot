@@ -32,7 +32,6 @@ function checkLastMessage(){
 
         //Who sent last message
         var lastMessageUser = lastMessage.parentElement.parentElement.parentElement.getElementsByClassName("username");
-        //var lastMessageUser = document.getElementsByClassName("username");
         lastMessageUser = lastMessageUser[lastMessageUser.length - 1].innerHTML;
 
         //Way to manually stop chatbot by other users
