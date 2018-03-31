@@ -1,5 +1,5 @@
 # JSBot
-A Python bot written in JavaScript
+A Stack Overflow Chat bot written in JavaScript
 
 # stockpile.json
 
