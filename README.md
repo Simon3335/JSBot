@@ -1,7 +1,7 @@
 # JSBot
 A Python bot written in JavaScript
 
-#stockpile.json
+# stockpile.json
 
 Words and phrases for the bot to say
 
