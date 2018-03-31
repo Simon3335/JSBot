@@ -3,7 +3,7 @@
 // @namespace    https://chat.stackoverflow.com/rooms/162587/simons-room
 // @version      0.1
 // @description  Automation Project
-// @author       Simon
+// @author       Simon, SShar
 // @match        https://chat.stackoverflow.com/rooms/162587/simons-room
 // @grant        none
 // ==/UserScript==
