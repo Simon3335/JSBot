@@ -10,7 +10,7 @@
 
 console.log("CBT Running");
 
-var cb_messages = ["Hello I am cbot!", "How Are you?", "What is your name", "exit", "Are you OK", "I am definitly not a bot (honest)"];
+var cb_messages = ["Hello I am cbot!", "How Are you?", "What is your name", "exit", "Are you OK", "I am definitly not a bot (honest)", "pleased to meet you", "greetings", "I am a robot"];
 
 
 function cbot(message) {
