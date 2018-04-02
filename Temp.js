@@ -39,12 +39,17 @@ function checkLastMessage(){
             stopCbot = true;
         }
 
-        else if (lastMessage.innerHTML == match("\d (+|-|/|*) \d")) {
+        /*else if (lastMessage.innerHTML == match("\d (+|-|/|*) \d")) {
+            console.log("Calculating");
+            var val = eval(lastMessage.innerHTML);
+            cbot(val);
+        }*/
+      
+        else if (/[\d]*[\s]*[\+|\-|\/|*]?[\s]*[\d]*/.test(lastMessage.innerHTML)) {
             console.log("Calculating");
             var val = eval(lastMessage.innerHTML);
             cbot(val);
         }
-
         else if (lastMessage.innerHTML == "cbot time!") {
             var time = new Date().toLocaleTimeString();
             cbot(time);
